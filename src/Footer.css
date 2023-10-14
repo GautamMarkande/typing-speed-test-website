@@ -1,0 +1,24 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.left div:hover{
+    cursor: pointer;
+    color: tomato;
+}
+.right select{
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.right select:hover{
+    background-color: tomato;
+}

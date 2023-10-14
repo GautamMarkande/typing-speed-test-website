@@ -1,0 +1,23 @@
+.header_container{
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper div{
+    cursor: pointer;
+}
+.lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lower :nth-child(2){
+    cursor: pointer;
+}
+.lower :nth-child(2) span:hover{
+color: tomato;
+}

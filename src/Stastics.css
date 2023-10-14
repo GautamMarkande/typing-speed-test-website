@@ -1,0 +1,42 @@
+.stastic_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.upper_reset_btn{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+}
+.upper_reset_btn div{
+    cursor: pointer;
+}
+.upper_reset_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.lower_now{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+button{
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: tomato;
+}
